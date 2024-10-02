@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Barbearia Estácio</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <style>  
+    /* Aplicando font-style: italic globalmente */
+    * {
+      font-style: italic;
+    }
+
+    /* Estilos para a seção de benefícios */
+    .beneficios {
+      background: #FFFFFF;
+      padding: 20px;
+    }
+
+    /* Centralização dos títulos */
+    .titulo-centralizado {
+      text-align: center;
+    }
+
+    /* Estilo para a imagem principal */
+    #imagem {
+      width: 100%;
+    }
+
+    /* Estilos para a seção principal */
+    .principal {
+      background: #CCCCCC;
+      padding: 30px;
+    }
+
+    /* Estilo para o título principal */
+    .titulo-principal {
+      padding-left: 50px;
+      background: #778899;
+    }
+
+    /* Estilo para listas não ordenadas */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    /* Estilo para os parágrafos */
+    p {
+      text-align: center;
+    }
+
+    /* Estilo para a missão */
+    #missao {
+      font-size: 20px;
+    }
+
+    /* Estilo para o texto em itálico e negrito */
+    em strong {
+      color: red;
+    }
+
+    /* Estilo para os itens da lista de benefícios */
+    .itens {
+      display: inline-block;
+      vertical-align: top;
+      width: 20%;
+      margin-right: 15%;
+    }
+
+    /* Estilo para a imagem dos benefícios */
+    .imagembeneficios {
+      width: 50%;
+    }
+
+    /* Estilos para produtos */
+    .produtos {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .produtos li {
+      list-style: none;
+      text-align: center;
+    }
+
+    .produto-descricao {
+      font-style: normal;
+    }
+
+    .produto-preco {
+      font-weight: bold;
+      color: #FF4500;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1 class="titulo-principal">Barbearia Estácio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagem principal -->
+  <img id="imagem" src="banner (1).jpg" alt="Imagem da Barbearia Estácio">
+
+  <!-- Seção principal sobre a barbearia -->
+  <main>
+    <section class="principal">
+      <div class="largura-principal">
+        <h2 class="titulo-centralizado">Sobre a Barbearia Estácio</h2>
+
+        <p>Localizada no coração da cidade, a <strong>Barbearia Estácio</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2022, a Barbearia Estácio já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+      </div>
+    </section>
+
+    <!-- Seção de Benefícios -->
+    <section class="beneficios">
+      <h3 class="titulo-centralizado">Benefícios</h3>
+      <ul>
+        <li class="itens">Atendimento ao Cliente</li>
+        <li class="itens">Espaço Diferenciado</li>
+        <li class="itens">Excelente localização com estacionamento gratuito</li> 
+        <li class="itens">Profissionais Qualificados</li>
+      </ul>
+      <img src="beneficios (1).jpg" class="imagembeneficios" alt="Imagem de Benefícios">
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section class="produtos">
+      <ul>
+        <li>
+          <h2>Cabelo</h2>
+          <img src="cabelo (1).jpg" alt="Serviço de Corte de Cabelo">
+          <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+          <p class="produto-preco">R$ 25,00</p>
+        </li>
+        <li>
+          <h2>Barba</h2>
+          <img src="barba (1).jpg" alt="Serviço de Corte e Desenho de Barba">
+          <p class="produto-descricao">Corte e desenho profissional de barba</p>
+          <p class="produto-preco">R$ 18,00</p>
+        </li>
+        <li>
+          <h2>Cabelo + Barba</h2>
+          <img src="cabelo_barba (1).jpg" alt="Pacote Completo de Cabelo e Barba">
+          <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+          <p class="produto-preco">R$ 35,00</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <img src="logo (4).png" alt="Logo da Barbearia Estácio">
+    <p class="copyright">&copy; Copyright Barbearia Estácio - 2022</p>
+  </footer>
+
+</body>
+</html>
